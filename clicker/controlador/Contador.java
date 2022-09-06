@@ -18,7 +18,7 @@ public class Contador {
           JLabel label = new JLabel("Clicks: " + contador); 
           panel.add(button);
           panel.add(label);
-          frame.getContentPane().add(panel);
+          frame.add(panel);
   
         button.addActionListener(action -> {
           contador++;
