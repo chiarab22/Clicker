@@ -11,7 +11,36 @@ public class Contador {
     public Contador(JFrame frame) {
       this.frame  = frame;
     }
+
+    
+
   
+      public int getContador() {
+      return contador;
+    }
+
+
+
+
+    public void setContador(int contador) {
+      this.contador = contador;
+    }
+
+
+
+
+    public JFrame getFrame() {
+      return frame;
+    }
+
+
+
+
+    public void setFrame(JFrame frame) {
+      this.frame = frame;
+    }
+
+
       public void incrementarContador() {
           JPanel panel = new JPanel();
           JButton button = new JButton("Click me!"); 
